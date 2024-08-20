@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --main-bg-color: ;
+}
+
+body{
+        background-color: #ffea83;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "navbar navbar navbar"
+        "body body body_a"
+        "reference reference reference";
+    grid-gap: 5px;
+}
+ 
+.header {
+    grid-area: header;
+    background-color: #ffd300;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+}
+
+.navbar {
+   list-style-type: none;
+   padding: 15px;
+}
+
+.navbar li { 
+    display: inline; 
+    padding: 27px;
+    font-size: 25px;
+}
+
+.robotics {
+    grid-area: robotics;
+    padding-top: 50px;
+    padding-right: 90px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+    
+}
+
+.importance {
+    grid-area: importance;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+    
+}
+
+.index {
+    grid-area: index;
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+    
+}
+
+.contact_us {
+    grid-area: contact_us;
+    padding-left: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Lora', cursive;
+    
+}
+
+.body {
+    grid-area: body;
+    padding: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+}
+
+.body_a {
+    grid-area: body_a;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Lora', cursive;
+    width: 50px;
+    height: 25px;
+
+    }
+
+.reference {
+    grid-area: reference;
+    padding: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Lora', cursive;
+}
