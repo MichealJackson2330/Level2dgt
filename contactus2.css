@@ -1,5 +1,35 @@
+* {
+  box-sizing: border-box;
+}
 
-#contact_form {
+:root {
+  --color-invalid: rgb(255, 68, 68);
+  --color-valid: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(/*)#contact_form {
   background-color: #405d27;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -30,4 +60,4 @@ input[type=submit] {
   font-size: 18px;
   margin-left: 10px;
   box-shadow: 5px 5px 5px #3e4444;
-}
+}(*/)
