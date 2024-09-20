@@ -33,7 +33,7 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.contact-inouts{
+.contact-inputs{
     width: 400px;
     height: 50px;
     border: none;
@@ -47,4 +47,7 @@ body{
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
 }
