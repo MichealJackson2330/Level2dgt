@@ -6,19 +6,27 @@
     <link rel="stylesheet" href="contactus2.css">
 </head>
 <body>
+    <div class="navbar">
+        <li>
+            <a href="index.html">Homepage</a></li>
+            <li><a href="page2.html">Advanatges</a></li>
+            <li><a href="page3.html">disadvantages</a></li>
+            <li><a href="page4.html">manage</a></li>
+            <li><a href="contactus2.html">Get in touch</a></li>
+    </div>
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <form action="index.html" method="POST" class="contact-left">
             <div class="contact-left-title">
                 <h2>Get in touch</h2>
                 <hr>
             </div>
+            <input type="hidden" name="access_key" value="4ee0f17f-0fec-4252-b959-43128988abff">
             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
             <button type="submit">Submit <img src="images/arrow_icon.png" alt=""></button>
         </form>
-        <div class="contact-right">
-            <img src="/images/right_img.png" alt="">
         </div>
     </div>
 </body>

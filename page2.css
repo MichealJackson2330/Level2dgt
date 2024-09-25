@@ -87,13 +87,10 @@ body{
 
 .body {
     grid-area: body;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    padding-top: 65px;
-    text-align: left;
-    font-size: x-large;
-    font-weight: 850;
+    padding: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
     font-family: 'Lora', cursive;
 }
 

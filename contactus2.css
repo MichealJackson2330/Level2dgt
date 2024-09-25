@@ -7,6 +7,16 @@ body{
     font-family: 'Outfit';
     background: linear-gradient(#ffdad5, #fff7f9);
 }
+.navbar{
+    list-style-type: none;
+    padding-top: 50px;
+    text-align: center;
+}
+.navbar li{
+    display: inline; 
+    padding: 20px;
+    font-size: 25px;
+}
 .contact-container{
     height: 100vh;
     display: flex;
@@ -50,4 +60,33 @@ body{
 }
 .contact-inputs:focus{
     border: 2px solid #ff994f;
+}
+.contact-inputs:placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border:none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
 }
