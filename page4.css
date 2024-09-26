@@ -38,31 +38,15 @@ body{
    padding: 15px;
 }
 
+.navbar_a {
+    list-style-type: none;
+    padding: 15px;
+}
+
 .navbar li { 
     display: inline; 
-    padding: 20px;
-    font-size: 25px;
-}
-
-.robotics {
-    grid-area: robotics;
-    padding-top: 50px;
-    padding-right: 90px;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 900;
-    font-family: 'Lora', cursive;
-    
-}
-
-.importance {
-    grid-area: importance;
-    padding: 50px;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 900;
-    font-family: 'Lora', cursive;
-    
+    padding: 5px;
+    font-size: 20px;
 }
 
 .index {
